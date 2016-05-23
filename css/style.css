@@ -1,0 +1,123 @@
+.section_content{
+    font-size: 14px !important;
+}
+
+.panel-flexible .panel-separator{
+  margin: 0 !important;
+}
+
+.main-menu {
+    background: #F5F5F5;
+    padding-top: 10px;
+}
+
+.main-menu a{
+  font-size: larger;
+  font-weight: 600;
+  color: #89898A;
+}
+
+.main-menu a:hover{
+  color: #FB7265;
+}
+
+.main-menu .view-header{
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+}
+
+.main-menu .views-row{
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+}
+
+.main-menu .view-content{
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+.left-menu{
+    float: initial !important;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.slider{
+    margin: 15px 0;
+}
+
+.slider .views-row{
+    position: relative;
+}
+
+.slider .views-slideshow-controls-top{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    z-index: 10;
+}
+
+.slider .views-slideshow-controls-text{
+    margin-right: 30px;
+}
+
+.slider .views-slideshow-controls-text-pause{
+    display: none;
+}
+
+.slider .views-slideshow-controls-text-next{
+  float: right;
+}
+
+.slider .views-field-title{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.48);
+}
+
+.slider .views-field-body{
+    position: absolute;;
+    top: 0px;
+    padding: 30px 50px;
+}
+
+.slider .views-field-title a, .slider .views-field-body h2, .slider .views-field-body p{
+    color: white;
+}
+.slider .views-field-title a{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.slider .views-field-body h2{
+    font-size: x-large;
+}
+
+.slider .views-field-body p{
+    padding: 0 15px;
+    max-height: 83px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.footer a{
+    float: right;
+    margin-left: 20px;
+}
+@media (max-width: 725px) {
+  .main-menu .view-header{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .main-menu .views-row{
+      width: 100%;
+  }
+  .main-menu .view-content{
+      width: 100%;
+  }
+}
