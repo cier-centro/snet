@@ -105,11 +105,73 @@
     overflow: hidden;
 }
 
+.slider .views-field-nothing{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.slider .views-field-nothing a{
+    padding: 11px 30px;
+}
+
+.main-content{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-content h3{
+    background: #FC5141;
+    padding: 5px;
+    padding-left: 25px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.main-content p, .main-content ol, .main-content ul{
+    border-left: 1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    padding: 10px;
+}
+
+.main-content p:last-child{
+    border-bottom: 1px solid #CBCBCB;
+}
+.main-content .image{
+    float: left;
+    margin: 10px;
+    margin-bottom: 0;
+}
+.main-content ol, .main-content  ul{
+	-webkit-padding-start: 40px;
+}
+
+.main-content li{
+	list-style: inherit;
+}
+
+.footer {
+    padding-bottom: 15px;
+}
+
 .footer a{
     float: right;
     margin-left: 20px;
 }
-@media (max-width: 725px) {
+
+.panels-flexible-region{
+    background: #F7F7F7;
+}
+
+.main_container {
+    background: url("http://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg");
+}
+
+.section_content, .breadcrumb{
+    background: transparent !important;
+}
+
+@media (max-width: 757px) {
   .main-menu .view-header{
     padding-right: 15px;
     padding-left: 15px;
