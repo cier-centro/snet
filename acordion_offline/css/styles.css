@@ -1,0 +1,78 @@
+body {
+    font-family: 'Myriad Pro', 'Helvetica', 'Sans-Serif';
+}
+
+a {
+    display: block;
+}
+
+.items .panel-heading {
+    background: #68844F;
+}
+
+.items .panel-default {
+    background: #83C04C;
+}
+
+.items .panel-default a {
+    font-size: 16px !important;
+    color: white !important;
+}
+
+.green-background {
+    background-image: url("../img/green_background.gif") !important;
+}
+
+.green-background, .panel-heading {
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.level-background {
+    background: url("../img/level_background.png") no-repeat center center / 100% !important;
+}
+
+.level-background a {
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.plus-icon {
+    width: 26px;
+    height: 26px;
+    float: right;
+    background: url('../img/plus_icon.png');
+    display: block;
+    margin: -4px;
+}
+
+.panel-links a{
+    color: black;
+    border-bottom: 1px solid #C0C0C0;
+    margin: 5px 0;
+}
+
+.available-link {
+    font-weight: bold;
+    color: blue !important;
+}
+
+.table-bordered, .accordion-container {
+    margin-top: 50px;
+}
+
+.thead-inverse {
+    background: #002856;
+}
+
+.thead-inverse th {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.code-table {
+    background: #004289;
+    color: white;
+}
