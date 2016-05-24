@@ -305,6 +305,11 @@
     background: transparent !important;
 }
 
+iframe {
+  width: 100%;
+  height: 700px;
+}
+
 @media (max-width: 757px) {
   .main-menu {
     margin-right: 20px;
