@@ -12,9 +12,11 @@
 }
 
 .main-menu a{
+  padding-bottom: 11px;
   font-size: larger;
   font-weight: 600;
   color: #89898A;
+  display: block;
 }
 
 .main-menu a:hover{
@@ -25,6 +27,7 @@
     display: inline-block;
     position: relative;
     margin: 0px 10px;
+    margin-bottom: -3px;
 }
 
 .main-menu .view{
@@ -36,10 +39,11 @@
     position: relative;
     margin: 0px 10px;
     padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: -3px;
 }
 
 .main-menu .views-row .active, .main-menu a:hover{
-    padding-bottom: 11px;
     border-bottom: 3px solid #FB7265;
 }
 
@@ -59,13 +63,18 @@
 .left-menu .views-row{
     padding: 10px;
     margin-bottom: 5px;
-    background-image: linear-gradient(to left, #83C04C, #83C04C 97%, #183A6B 50%, #04386F);
+    background-image: linear-gradient(to left, #83C04C, #83C04C 97%, #68844F 50%, #68844F);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.left-menu .views-row:hover{
+    background-image: linear-gradient(to left, #83C04C, #83C04C 97%, #68844F 50%, #68844F);
+}
+
 .left-menu .views-row a{
     color: white;
+    display: block;
 }
 
 .slider{
@@ -95,6 +104,19 @@
   float: right;
 }
 
+.slider .views-slideshow-controls-text-previous a{
+  margin-left: 10px;
+  color: transparent;
+  padding-bottom: 25px;
+  background: url("https://dl.dropboxusercontent.com/s/zh9h1zrg2bvev6g/back.png") no-repeat;
+}
+
+.slider .views-slideshow-controls-text-next a{
+  color: transparent;
+  padding-bottom: 25px;
+  background: url("https://dl.dropboxusercontent.com/s/dsewauzh4dycdua/next.png") no-repeat;
+}
+
 .slider .views-field-title{
     position: absolute;
     bottom: 0px;
@@ -106,7 +128,7 @@
 .slider .views-field-body{
     position: absolute;;
     top: 0px;
-    padding: 30px 50px;
+    padding: 2% 9%;
 }
 
 .slider .views-field-title a, .slider .views-field-body h2, .slider .views-field-body p{
@@ -123,7 +145,7 @@
 
 .slider .views-field-body p{
     padding: 0 15px;
-    max-height: 83px;
+    max-height: 62px;
     overflow-wrap: break-word;
     overflow: hidden;
 }
@@ -136,6 +158,9 @@
 
 .slider .views-field-nothing a{
     padding: 11px 30px;
+    background: #83C04C;
+    border-color: #83C04C;
+    border-radius: 0;
 }
 
 .main-content{
@@ -152,7 +177,7 @@
     margin-bottom: 0px;
 }
 
-.main-content p, .main-content ol, .main-content ul, .main-content h4{
+.main-content p, .main-content ol, .main-content ul, .main-content h4, .main-content .container-fluid{
     border-left: 1px solid #CBCBCB;
     border-right: 1px solid #CBCBCB;
     padding: 10px;
@@ -167,11 +192,67 @@
     margin-bottom: 0;
 }
 .main-content ol, .main-content  ul{
-	-webkit-padding-start: 40px;
+	 -webkit-padding-start: 40px;
 }
 
 .main-content li{
-	list-style: inherit;
+	  list-style: inherit;
+}
+
+.main-content .panel{
+    margin-left: 2px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.main-content .panel-heading{
+    text-align: center;
+    background: #BBBABA;
+}
+
+.main-content .panel-body {
+    padding: 9px;
+    background: #DCDBDB;
+}
+
+.main-content .panel-body a{
+    display: block;
+}
+.main-content span{
+    padding-top: 10px;
+    margin: auto;
+    display: inherit;
+    color: white;
+}
+.icon-file{
+    width: 37px;
+    height: 46px;
+    background: url("https://dl.dropboxusercontent.com/s/zplij74bdx3iljk/icon_1.png");
+}
+
+.icon-hat{
+    width: 67px;
+    height: 47px;
+    background: url("https://dl.dropboxusercontent.com/s/wdr7runm3s2hr7c/icon_2.png");
+
+}
+
+.icon-people{
+    width: 68px;
+    height: 46px;
+    background: url("https://dl.dropboxusercontent.com/s/oml4xic9mqusnp0/icon_3.png");
+}
+
+.icon-book{
+    width: 61px;
+    height: 46px;
+    background: url("https://dl.dropboxusercontent.com/s/fk9qa96l3mljx5o/icon_5.png");
+}
+
+.icon-mesh{
+    width: 70px;
+    height: 45px;
+    background: url("https://dl.dropboxusercontent.com/s/bnhw5jixqvfm2vs/icon_4.png");
 }
 
 .footer {
@@ -183,12 +264,24 @@
     margin-left: 20px;
 }
 
+.footer .google{
+    width: 124px;
+    height: 43px;
+    background: url("https://dl.dropboxusercontent.com/s/z8lpywslp09c5bm/google_play.png");
+}
+
+.footer .pdf{
+    width: 124px;
+    height: 43px;
+    background: url("https://dl.dropboxusercontent.com/s/ku8krak5cruo9if/pdf.png");
+}
+
 .panels-flexible-region{
     background: #F7F7F7;
 }
 
 .main_container {
-    background: url("http://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg");
+    background: url("https://dl.dropboxusercontent.com/s/7rph4qm2yhkjpsa/background.png");
 }
 
 .section_content, .breadcrumb{
@@ -212,6 +305,9 @@
   }
   .main-menu .view {
     border-bottom: none;
+  }
+  .slider .views-field-body{
+    display: none;
   }
 }
 @media (max-width: 767px) {
