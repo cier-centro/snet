@@ -27,16 +27,27 @@
     margin: 0px 10px;
 }
 
+.main-menu .view{
+    border-bottom: 3px solid orange;
+}
+
 .main-menu .views-row{
     display: inline-block;
     position: relative;
     margin: 0px 10px;
+    padding: 10px;
+}
+
+.main-menu .views-row .active, .main-menu a:hover{
+    padding-bottom: 11px;
+    border-bottom: 3px solid #FB7265;
 }
 
 .main-menu .view-content{
     display: inline-block;
     margin-bottom: 0px;
     width: 80%;
+    overflow: visible;
 }
 
 .left-menu{
@@ -185,15 +196,22 @@
 }
 
 @media (max-width: 757px) {
+  .main-menu {
+    margin-right: 20px;
+  }
   .main-menu .view-header{
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 100%;
+    margin: 0;
   }
   .main-menu .views-row{
       width: 100%;
+      border-bottom: 3px solid orange;
   }
   .main-menu .view-content{
       width: 100%;
+  }
+  .main-menu .view {
+    border-bottom: none;
   }
 }
 @media (max-width: 767px) {
