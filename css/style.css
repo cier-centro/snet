@@ -20,7 +20,7 @@
 }
 
 .main-menu a:hover{
-  color: #FB7265;
+  color: #EE5835;
 }
 
 .main-menu .view-header{
@@ -31,7 +31,7 @@
 }
 
 .main-menu .view{
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #F59332;
 }
 
 .main-menu .views-row{
@@ -44,7 +44,7 @@
 }
 
 .main-menu .views-row .active, .main-menu a:hover{
-    border-bottom: 3px solid #FB7265;
+    border-bottom: 3px solid #EE5835;
 }
 
 .main-menu .view-content{
@@ -63,19 +63,28 @@
 .left-menu .views-row{
     padding: 10px;
     margin-bottom: 5px;
-    background-image: linear-gradient(to left, #83C04C, #83C04C 97%, #68844F 50%, #68844F);
+    background-image: linear-gradient(to left, #83C24C, #83C24C 97%, #4E8F00 50%, #4E8F00);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .left-menu .views-row:hover{
-    background-image: linear-gradient(to left, #9AC771, #9AC771 97%, #68844F 50%, #68844F);
+    background-image: linear-gradient(to left, #4E8F00, #4E8F00 97%, #83C24C 50%, #83C24C);
 }
 
 .left-menu .views-row a{
     color: white;
     display: block;
 }
+
+.left-menu .view-header{
+    padding: 5px;
+    background: #4E8F00;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
 
 .slider{
     margin: 15px 0;
@@ -158,9 +167,14 @@
 
 .slider .views-field-nothing a{
     padding: 11px 30px;
-    background: #83C04C;
-    border-color: #83C04C;
+    background: #83C24C;
+    border-color: #83C24C;
     border-radius: 0;
+}
+
+.slider .views-field-nothing a:hover{
+    background: #4E8F00;
+    border-color: #4E8F00;
 }
 
 .main-content{
@@ -169,7 +183,7 @@
 }
 
 .main-content h3, .home h3{
-    background: #FC5141;
+    background: #EE5835;
     padding: 5px;
     padding-left: 25px;
     color: white;
@@ -326,7 +340,7 @@
   }
   .main-menu .views-row{
       width: 100%;
-      border-bottom: 3px solid orange;
+      border-bottom: 3px solid #F59332;
   }
   .main-menu .view-content{
       width: 100%;
