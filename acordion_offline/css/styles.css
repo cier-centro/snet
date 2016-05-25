@@ -12,6 +12,7 @@ a {
 
 .items .panel-default {
     background: #83C04C;
+    height: 136px;
 }
 
 .items .panel-default a {
@@ -75,4 +76,8 @@ a {
 .code-table {
     background: #004289;
     color: white;
+}
+
+.items{
+  text-align: center;
 }

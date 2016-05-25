@@ -69,7 +69,7 @@
 }
 
 .left-menu .views-row:hover{
-    background-image: linear-gradient(to left, #83C04C, #83C04C 97%, #68844F 50%, #68844F);
+    background-image: linear-gradient(to left, #9AC771, #9AC771 97%, #68844F 50%, #68844F);
 }
 
 .left-menu .views-row a{
@@ -168,7 +168,7 @@
     padding-bottom: 15px;
 }
 
-.main-content h3{
+.main-content h3, .home h3{
     background: #FC5141;
     padding: 5px;
     padding-left: 25px;
@@ -181,7 +181,7 @@
 	  color: #FC5141;
 }
 
-.main-content p, .main-content ol, .main-content ul, .main-content h4, .main-content .container-fluid{
+.main-content p, .main-content ol, .main-content ul, .main-content h4, .main-content .container-fluid, .home iframe{
     border-left: 1px solid #CBCBCB;
     border-right: 1px solid #CBCBCB;
     padding: 10px;
@@ -305,10 +305,16 @@
     background: transparent !important;
 }
 
-iframe {
+.main-content iframe {
   width: 100%;
   height: 700px;
 }
+
+.home iframe {
+  width: 100%;
+  height: 500px;
+}
+
 
 @media (max-width: 757px) {
   .main-menu {
@@ -335,8 +341,9 @@ iframe {
 @media (max-width: 767px) {
   .left-menu{
     width: 100%;
-  }.left-menu .views-row{
-      background-image: linear-gradient(to left, #83C04C, #83C04C 99%, #183A6B 50%, #04386F);
+  }
+  .left-menu .views-row{
+    background-image: linear-gradient(to left, #83C04C, #83C04C 97%, #68844F 50%, #68844F);
   }
 
 }
