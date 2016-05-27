@@ -1,5 +1,30 @@
+* {
+    -webkit-box-sizing: unset;
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+}
+
+body{
+    font-family: 'segoe UI','segoe UI web','segoe UI xp','arial','helvetica';
+}
+
+.main_container *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 @media (min-width: 768px) {
     body{
         font-size: 14px !important;
+    }
+    .top_menu{
+        font-size: 11px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    body{
+        font-size: 12px !important;
     }
 }
