@@ -1,3 +1,4 @@
+
 .section_content{
     font-size: 14px !important;
 }
@@ -84,7 +85,6 @@
     color: white;
     text-align: center;
 }
-
 
 .slider{
     margin: 15px 0;
@@ -280,6 +280,16 @@
     background: url("https://dl.dropboxusercontent.com/s/fk9qa96l3mljx5o/icon_5.png");
 }
 
+.icon-book-green{
+    width: 61px;
+    height: 46px;
+    background: url("https://dl.dropboxusercontent.com/s/boo9t5f6j0kr0nc/icon_5_green.png");
+}
+
+.icon-book-green:hover{
+    background: url("https://dl.dropboxusercontent.com/s/o1whh4pxqv5wn4n/icon_5_white.png");
+}
+
 .icon-mesh{
     width: 70px;
     height: 45px;
@@ -311,6 +321,28 @@
     background: #F7F7F7;
 }
 
+
+.left-menu .panel-heading {
+    background: #4E8F00;
+}
+
+.left-menu .panel-body{
+    background: white;
+}
+
+.left-menu .panel-body:hover, .left-menu .panel-body:hover span, .left-menu .panel-body:hover a{
+    background: #83C24C;
+    color: white
+}
+
+.left-menu .panel-body a, .left-menu .panel-body span{
+    color: #4E8F00;
+}
+
+.left-menu .panel-body:hover .icon-book-green{
+    background: url("https://dl.dropboxusercontent.com/s/o1whh4pxqv5wn4n/icon_5_white.png");
+}
+
 .main_container {
     background: url("https://dl.dropboxusercontent.com/s/7rph4qm2yhkjpsa/background.png");
 }
@@ -330,7 +362,7 @@
 }
 
 
-@media (max-width: 757px) {
+@media (max-width: 793px) {
   .main-menu {
     margin-right: 20px;
   }
