@@ -6,6 +6,9 @@ a {
     display: block;
 }
 
+.img-responsive{
+    width: 100%;
+}
 .items .panel-heading {
     background: #68844F;
 }
