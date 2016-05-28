@@ -195,7 +195,7 @@
 	  color: #FC5141;
 }
 
-.main-content p, .main-content ol, .main-content ul, .main-content h4, .main-content .container-fluid, .home iframe{
+.main-content p, .main-content ol, .main-content ul, .main-content h4, .main-content .container-fluid{
     border-left: 1px solid #CBCBCB;
     border-right: 1px solid #CBCBCB;
     padding: 10px;
@@ -290,6 +290,16 @@
     background: url("https://dl.dropboxusercontent.com/s/o1whh4pxqv5wn4n/icon_5_white.png");
 }
 
+.icon-media{
+    width: 50px;
+    height: 46px;
+    background: url("https://dl.dropboxusercontent.com/s/8xc7jz8lxwvtwui/icon-media.png");
+}
+
+.icon-media:hover{
+    background: url("https://dl.dropboxusercontent.com/s/p01a9dqeb1r6ncl/icon-media-white.png");
+}
+
 .icon-mesh{
     width: 70px;
     height: 45px;
@@ -306,15 +316,17 @@
 }
 
 .footer .google{
-    width: 124px;
-    height: 43px;
-    background: url("https://dl.dropboxusercontent.com/s/z8lpywslp09c5bm/google_play.png");
+    width: 159px;
+    height: 58px;
+    background:20px 8px url("https://dl.dropboxusercontent.com/s/z8lpywslp09c5bm/google_play.png")  no-repeat;
+    background-color: #2A2A2A;
 }
 
 .footer .pdf{
-    width: 124px;
-    height: 43px;
-    background: url("https://dl.dropboxusercontent.com/s/ku8krak5cruo9if/pdf.png");
+    width: 159px;
+    height: 58px;
+    background: 20px 8px url("https://dl.dropboxusercontent.com/s/ku8krak5cruo9if/pdf.png") no-repeat;
+    background-color: #818181;
 }
 
 .panels-flexible-region{
@@ -356,11 +368,24 @@
   height: 700px;
 }
 
+.streaming  iframe {
+  margin-left: 9px;
+  width: 620px;
+  height: 350px;
+}
+
 .home iframe {
   width: 100%;
   height: 500px;
 }
 
+.video-left-menu iframe{
+    margin-top: 0px;
+}
+
+.video-left-menu iframe{
+    height: auto;
+}
 
 @media (max-width: 793px) {
   .main-menu {
