@@ -1,5 +1,5 @@
 <script>
-    window.onload = function() {
+    $('document').ready(function(){
       var flipbooks = ".left-menu";
       var titleClass = " .views-row .views-field-title";
       var flipbookContainers = document.querySelectorAll(flipbooks + " .views-row");
@@ -9,7 +9,7 @@
 
       buildModalButtons (titleContainers, titleValues, flipbooks + titleClass);
       buildModalViews(titleValues, urlFlipbooks, flipbookContainers, flipbooks);
-    };
+    });
 
     function buildModalButtons (titlesContainersArray, titlesArray, containerClass) {
       if ((titlesContainersArray.length > 0)) {
