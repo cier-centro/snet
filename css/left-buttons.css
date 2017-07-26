@@ -21,12 +21,18 @@
     padding: 0 !important;
 }
 
-.modal-buttons .modal-dialog,
 .modal-buttons .modal-content,
 .modal-buttons .modal-body {
     height: 100%;
 }
 
+.modal-buttons .modal-lg,
 .modal-buttons .modal-body > div {
     height: 93%;
+}
+
+@media (min-width: 992px){
+  .modal-buttons .modal-lg {
+      width: 95% !important;
+  }
 }
